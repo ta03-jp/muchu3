@@ -1206,7 +1206,7 @@ function sendImageDataToAPI() {
     formData.append(`longshirt[]`, blob, `image${index}.png`);
   });
 
-  fetch("https://sensible-trusted-hare.ngrok-free.app/process_images", {
+  fetch("https://bengal-adjusted-vertically.ngrok-free.app/process_images", {
     method: "POST",
     body: formData,
   })
