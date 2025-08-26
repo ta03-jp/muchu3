@@ -799,7 +799,7 @@ document.addEventListener("DOMContentLoaded", () => {
   captureB.addEventListener("click", () => {
     // タイマーの追加
     const timerB = document.getElementById("timerB");
-    let count = 5;
+    let count = 3;
     timerB.style.display = "block"; // タイマーを表示
 
     // タイマーを更新する関数
@@ -1240,4 +1240,5 @@ function sendImageDataToAPI() {
       );
     });
 }
+
 
