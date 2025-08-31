@@ -319,7 +319,7 @@ let topstemp = [
   {
     name: "ショート丈Tシャツ",
     src: "images/shortT_icon.png",
-    front: "images/miniT_fron.png",
+    front: "images/miniT_front.png",
     back: "images/miniT_back.png",
     sleeve: "images/shortT_sleeve.png",
   },
@@ -1240,6 +1240,7 @@ function sendImageDataToAPI() {
       );
     });
 }
+
 
 
 
