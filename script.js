@@ -326,7 +326,7 @@ let topstemp = [
   {
     name: "オーバーサイズTシャツ",
     src: "images/bigSilhouette_icon.png",
-    front: "images/Tshirt_front.png.png",
+    front: "images/Tshirt_front.png",
     back: "images/Tshirt_back.png",
     sleeve: "images/bigSilhouette_sleeve.png",
   },
@@ -1240,6 +1240,7 @@ function sendImageDataToAPI() {
       );
     });
 }
+
 
 
 
