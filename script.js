@@ -1206,7 +1206,7 @@ function sendImageDataToAPI() {
     formData.append(`longshirt[]`, blob, `image${index}.png`);
   });
 
-  fetch("https://33703e635d9b.ngrok-free.app/process_images", {
+  fetch("https://5c940651c1dc.ngrok-free.app/process_images", {
     method: "POST",
     body: formData,
   })
@@ -1240,6 +1240,7 @@ function sendImageDataToAPI() {
       );
     });
 }
+
 
 
 
